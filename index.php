@@ -10,7 +10,7 @@
 <body>
     <div class="contenedor">
         <h2>Registro de Eventos</h2>
-        <form action="authenticate.php" id="forma" name="forma" method="post">
+        <form id="forma" name="forma" method="post" >
             <div class="elemento">
                 <label for="username">Usuario</label>
                 <input type="text" id="username" name="username" required="true"/>
