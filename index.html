@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Login</title>
     <link href="css/estilos.css" rel="stylesheet"/>
+    <script src="funciones.js"></script>
 </head>
 <body>
     <div class="contenedor">
         <h2>Registro de Eventos</h2>
-        <form id="forma" name="forma" method="post" >
+        <form action="segunda.html" name="forma" method="post" onsubmit=" return validate(this)">
             <div class="elemento">
                 <label for="username">Usuario</label>
                 <input type="text" id="username" name="username" required="true"/>
