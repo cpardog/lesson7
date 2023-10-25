@@ -1,17 +1,20 @@
 <?php
 echo "Hola mundo";
-if (isset($_POST["user"])) {
-    $nombre = $_POST["user"];
+$nombre="";
+$contra="";
+if (isset($_POST['user'])) {
+    $nombre = $_POST['user'];
     echo "$nombre" . "Eso fue lo que digitó en usuario";
 }
 else {
     echo "No se cumple la condicion";
+    echo "$nombre" . "Eso fue lo que digitó en usuario" ."<br/>";
 }
 
 
-if (isset($_POST["password"])) {
-    $contra = $_POST["password"];
-    echo "$contra" . "Eso fue lo que digitó en contraseña";
+if (isset($_POST['password'])) {
+    $contra = $_POST['password'];
+    echo "$contra" . "Eso fue lo que digitó en contraseña"  ."<br/>";
 }
 else {
     echo "No se cumple la condicion";
