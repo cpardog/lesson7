@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Login</title>
     <link href="css/estilos.css" rel="stylesheet"/>
-    <script src="./funciones.js"></script>
+    <!-- <script src="./funciones.js"></script> -->
 </head>
 <body>
     <div class="contenedor">
         <h2>Registro de Eventos</h2>
-        <form action="./segunda.php" name="forma" method="post">
+        <form method="post" action="segunda.php">
             <div class="elemento">
-                <label for="username">Usuario</label>
-                <input type="text" id="username" name="username" required="true"/>
+                <label for="user">Usuario</label>
+                <input type="text" name="user" required="true"/>
             </div>
             <div class="elemento">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required="true"/>
+                <label for="password">Clave</label>
+                <input type="password" name="password" required="true"/>
             </div>
             <div class="elemento">
                 <input type="submit" value="Enviar"/>
